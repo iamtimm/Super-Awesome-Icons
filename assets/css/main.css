@@ -1,0 +1,80 @@
+body	{
+	background-color: #a7ca52 !important;
+	animation: colours 60s 3s infinite;
+	-moz-animation: colours 60s 3s infinite; /* Firefox */
+	-webkit-animation: colours 60s 3s infinite; /* Safari and Chrome */
+	-o-animation: colours 60s 3s infinite; /* Opera */
+	overflow: hidden;
+
+}
+
+.icons	{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 780px;
+	height: 64px;
+	margin: -32px 0 0 -390px;
+}
+
+.icon	{
+	display: inline-block;
+	float: left;
+	width: 64px;
+	height: 64px;
+	margin: 0 115px 0 0;
+}
+
+.icon:last-child	{
+	margin: 0;
+}
+
+.note	{
+	background-image: url(../img/note.png);
+	background-size: 64px 64px;
+}
+
+.file	{
+	background-image: url(../img/file.png);
+	background-size: 64px 64px;
+}
+
+.photo	{
+	background-image: url(../img/photo.png);
+	background-size: 64px 64px;
+}
+
+.camera	{
+	background-image: url(../img/camera.png);
+	background-size: 64px 64px;
+}
+
+.download	{
+	background-image: url(../img/download.png);
+	background-size: 64px 64px;
+}
+
+.footer	{
+	background-image: url(../img/footer.png);
+	background-size: 323px 51px;
+	position: absolute;
+	left: 50%;
+	bottom: 40px;
+	margin: 0 0 0 -161px;
+	height: 51px;
+	width: 323px;
+}
+
+.followme	{
+	position: absolute;
+	left: 50%;
+	bottom: 20px;
+	margin: 0 0 0 -62px;
+	display: none; 
+}
+
+.twitter	{
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
