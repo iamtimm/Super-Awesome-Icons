@@ -5,7 +5,10 @@ body	{
 	-webkit-animation: colours 60s 3s infinite; /* Safari and Chrome */
 	-o-animation: colours 60s 3s infinite; /* Opera */
 	overflow: hidden;
-
+	left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 
 .icons	{
@@ -23,6 +26,7 @@ body	{
 	width: 64px;
 	height: 64px;
 	margin: 0 115px 0 0;
+	background-size: 100%
 }
 
 .icon:last-child	{
@@ -31,27 +35,34 @@ body	{
 
 .note	{
 	background-image: url(../img/note.png);
-	background-size: 64px 64px;
 }
 
 .file	{
 	background-image: url(../img/file.png);
-	background-size: 64px 64px;
 }
 
 .photo	{
 	background-image: url(../img/photo.png);
-	background-size: 64px 64px;
 }
 
 .camera	{
 	background-image: url(../img/camera.png);
-	background-size: 64px 64px;
 }
 
 .download	{
 	background-image: url(../img/download.png);
-	background-size: 64px 64px;
+}
+
+.comingsoon {
+  position: absolute;
+	left: 50%;
+	top: 50%;
+  background-image: url(../img/soon.png);
+  background-size: 100%;
+  width: 209px;
+  height: 30px;
+  margin: 100px 0 0 -104px;
+  opacity: .7
 }
 
 .footer	{
